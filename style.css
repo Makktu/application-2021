@@ -11,3 +11,41 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
 }
+
+.glowing-button {
+    height: 3rem;
+    width: 10rem;
+    background-color: tomato;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    animation: glowbutton 1s infinite;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.glowing-button:hover {
+    background-color: darkred;
+    color: white;
+    transition: 1s ease;
+}
+
+@keyframes glowbutton {
+    20% {
+        height: 3.5rem;
+        width: 10.5rem;
+        font-size: 1.65rem;
+    }
+    /* 50% {
+        height: 3.25rem;
+        width: 10.25rem;
+    } */
+    80% {
+        height: 3.05rem;
+        width: 10.05rem;
+        font-size: 1.5rem;
+    }
+}
