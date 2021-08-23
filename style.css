@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     display: block;
     margin: auto;
-    animation: glowbutton 1s infinite;
+    /* animation: glowbutton 1s infinite; */
     font-size: 1.5rem;
     line-height: 3rem;
     color: darkcyan;
@@ -30,7 +30,7 @@ h1 {
 .glowing-button:hover {
     background-color: darkred;
     color: white;
-    transition: 1s ease;
+    transition: 1.4s ease;
 }
 
 @keyframes glowbutton {
@@ -48,4 +48,13 @@ h1 {
         width: 10.05rem;
         font-size: 1.5rem;
     }
+}
+
+.messages {
+    /* border: turquoise solid 1px; */
+    height: 40rem;
+    width: 40rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
 }
